@@ -10,7 +10,7 @@ def appVersionName = "5.1.0"
 def appVersionCode = 50090
 
 static def getPackageName() {
-    return "org.linphone"
+    return "br.ufscar.sip"
 }
 
 def firebaseAvailable = new File(projectDir.absolutePath +'/google-services.json').exists()
